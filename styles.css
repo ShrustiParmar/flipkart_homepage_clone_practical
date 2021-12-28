@@ -18,6 +18,10 @@ header{
     z-index: 10;
 }
 
+/* .background{
+    background-color: thistle;
+} */
+
 /* top nav bar styling */
 .top-nav-bar{
     height: 56px;
@@ -158,9 +162,11 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 6px 0;
+    padding: 10px 0;
     background-color: white;
     border-bottom: 1px solid #d9d9d9;
+    margin-right: 50px;
+    margin-left: 60px;
 }
 .category{
     display: flex;
@@ -192,6 +198,9 @@ header{
     padding: 10px 0;
     justify-content: center;
     align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    /* background-color: whitesmoke; */
 }
 .section-with-advertisment .card{
     width: 84%;
@@ -270,11 +279,11 @@ header{
     margin-top: 4px;
 }
 .advertisment{
-    width: 16%;
+    width: 20%;
 }
 .advertisment img{
     width: 100%;
-    height: 340px;
+    height: 330px;
 }
 /* Side arrow styling */
 .side-arrow{
@@ -295,6 +304,9 @@ header{
 
 .product-section{
     margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right:60px;
+    /* background-color: whitesmoke; */
 }
 
 .product-section h4{
